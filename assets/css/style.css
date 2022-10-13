@@ -13,30 +13,53 @@ html {
     height: 46.5px;
 }
 
-#header > .nav{
+#header > .nav > a{
     text-transform: uppercase;
 }
 
-.nav {
-    line-height: 46.5px;
+.nav{
     float: left;
-    color: #fff;
-    padding: 0 24px;
 }
 
-#header .nav li:hover{
+.nav > a{
+    color: #fff;
+}
+.nav a{
+    text-decoration: none;
+    line-height: 46.5px;
+    width: 100%;
+    padding: 14.5px 24px;
+
+}
+
+.nav>a:hover{
+    color: black;
+    background-color: #ccc;
+}
+
+.nav li:hover{
     color: black;
     background-color: #ccc;
 } 
 
+.nav .subnav {
+   
+}
+
 .subnav {
     color: #000;   
+    background-color: #fff;
     list-style: none;
     /* display: none   ;  */
 }
 
-#slider {
+.subnav>li>a{
+    color: #000;
+}
 
+#slider {
+    background-color: pink;
+    height: 500px;
 }
 
 #content {
